@@ -19,7 +19,7 @@ python supcl2.py \
     --per_device_train_batch_size $bsz \
     --per_device_eval_batch_size $bsz \
     --learning_rate 1e-5 \
-	--evaluation_steps $steps \
+    --evaluation_steps $steps \
     --max_seq_length $max_len \
     --pad_to_max_length \
     --with_tracking \
