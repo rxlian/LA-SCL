@@ -37,4 +37,8 @@ bash evaluation/run.sh
 ```
 Evaluation Tutorials:
 ```
+--train_file corresponds to training set for linear probing
+--valid_file corresponds to validation set for linear probing
+--dataset sepcify dataset name corresponds to huggingface's dataset names, will automatically download test set
+--task direct_test/lp/lp_random_initialized_linear/finetune 
 ```
