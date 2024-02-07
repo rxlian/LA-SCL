@@ -61,7 +61,7 @@ from utils import *
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 import wandb
 
-from models import ContrastModel
+from model import BertWithLabel
 
 logger = get_logger(__name__)
 MODEL_CONFIG_CLASSES = list(MODEL_FOR_MASKED_LM_MAPPING.keys())
@@ -333,10 +333,8 @@ def main():
         label_sim_matrix = torch.mm(label_matrix_norm, label_matrix_norm.t())
 
 
-    model = ContrastModel.from_pretrained('bert-base-uncased', num_labels=1,
-                                          contrast_loss=1, graph=1,
-                                          layer=1, data_path=data_path, multi_label=True,
-                                          lamb=1, threshold=0.02, tau=1)
+    model = BertWithLabel.from_pretrained(path, num_labels=args.num_classes, tree_matrix=tree_matrix, \
+        label_matrix=label_matrix, label_sim_mat=label_sim_matrix, tokenizer=tokenizer, args=args).to(device)
 
 
     def preprocess_function(examples):
