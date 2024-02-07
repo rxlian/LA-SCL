@@ -42,3 +42,5 @@ Evaluation Tutorials:
 --dataset sepcify dataset name corresponds to huggingface's dataset names, will automatically download test set
 --task direct_test/lp/lp_random_initialized_linear/finetune 
 ```
+
+Explanation to dataset folder
