@@ -39,8 +39,11 @@ Evaluation Tutorials:
 ```
 --train_file corresponds to training set for linear probing
 --valid_file corresponds to validation set for linear probing
---dataset sepcify dataset name corresponds to huggingface's dataset names, will automatically download test set
+--dataset sepcify dataset name corresponds to huggingface's dataset names, will automatically download test set (except for wos, which is explained below)
 --task direct_test/lp/lp_random_initialized_linear/finetune 
 ```
 
-Explanation to dataset folder
+Explanation to data folder
+*Linear Probing: newsgroups20, dbpedia, wos (wos contains one additional test.csv)
+*WebOfScience: Original WOS dataset used for training
+*label_str.pkl pre-generated WOS label mappings
