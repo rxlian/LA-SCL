@@ -30,3 +30,10 @@ LISC: Label-aware instance-to-scaled-center
 --modified_kmeans
 ```
 
+Evaluation:
+```
+bash evaluation/run.sh
+```
+Evaluation Tutorials:
+```
+```
