@@ -47,3 +47,13 @@ Explanation to data folder
 * Linear Probing: newsgroups20, dbpedia, wos (wos contains one additional test.csv)
 * WebOfScience: Original WOS dataset used for training
 * label_str.pkl pre-generated WOS label mappings
+
+Please cite our paper if you use this code base:
+```
+@article{lian2024learning,
+  title={Learning Label Hierarchy with Supervised Contrastive Learning},
+  author={Lian, Ruixue and Sethares, William A and Hu, Junjie},
+  journal={arXiv preprint arXiv:2402.00232},
+  year={2024}
+}
+```
