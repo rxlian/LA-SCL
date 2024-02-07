@@ -44,6 +44,6 @@ Evaluation Tutorials:
 ```
 
 Explanation to data folder
-*Linear Probing: newsgroups20, dbpedia, wos (wos contains one additional test.csv)
-*WebOfScience: Original WOS dataset used for training
-*label_str.pkl pre-generated WOS label mappings
+* Linear Probing: newsgroups20, dbpedia, wos (wos contains one additional test.csv)
+* WebOfScience: Original WOS dataset used for training
+* label_str.pkl pre-generated WOS label mappings
