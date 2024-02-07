@@ -5,6 +5,7 @@ Repo for [Learning label hierarchy with supervised contrastive learning](https:/
 
 
 cite as:
+---
 @inproceedings{
 anonymous2024learning,
 title={Learning Label Hierarchy with Supervised Contrastive Learning},
@@ -13,3 +14,4 @@ booktitle={18th Conference of the European Chapter of the Association for Comput
 year={2024},
 url={https://openreview.net/forum?id=nJjmRKIAnL}
 }
+---
