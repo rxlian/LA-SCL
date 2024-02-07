@@ -6,6 +6,7 @@ Training:
 bash run.sh
 ```
 Training Tutorials:
+Substitute flags in run.sh as shown below for different methods.
 ```
 supcl: Original supervised contrastive
 --method supcl
